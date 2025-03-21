@@ -1,0 +1,279 @@
+
+/* redes sociales barra superior */
+
+.redessociales li a i{
+    padding: 20px;
+    color: white;
+    transition: all .8s ease;
+}
+
+/* hover sociales */
+
+.redessociales li a .facebook:hover{
+    transform: rotate(360deg) scale(1.7);
+    opacity: 1;
+    color: #4267B2;
+}
+
+.redessociales li a .instagram:hover{
+    transform: rotate(360deg) scale(1.7);
+    opacity: 1;
+    color: #C13584;
+}
+
+.redessociales li a .youtube:hover{
+    transform: rotate(360deg) scale(1.7);
+    opacity: 1;
+    color: #c4302b;
+}
+
+.redessociales li a .github:hover{
+    transform: rotate(360deg) scale(1.7);
+    opacity: 1;
+    color: #171515;
+}
+/* texto info barra superior */
+
+.texto-info span{
+    font-size: 12px;
+}
+
+/* navbar */
+
+.navbar-toggler {
+    padding: 0;
+    color: transparent;
+    font-size: 2rem;
+    line-height: 1;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    outline: 0;
+}
+
+.navbar-ligth .navbar-nav .nav-link {
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: .5rem;
+    transition: all .3 ease;
+
+}
+
+.navbar-ligth .navbar-nav .nav-link::after {
+    color: white;
+    font-family: "Font Awesome 6 Free";
+    content: '\f054';
+    font-weight: 900;
+    transition: all .2s ease;
+}
+
+.navbar-ligth .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: #dc3545 !important;
+
+}
+
+.navbar-ligth .navbar-nav .nav-link:hover::after {
+    transform: rotateZ(180deg);
+}
+
+.navbar-ligth .navbar-nav .nav-link.active {
+    color: white;
+    background-color: #dc3545 !important;
+}
+
+/* flecha boton */
+.btn-primnary::after{
+    font-family: "Font Awesome 6 Free";
+    content: '\f138';
+    font-weight: 900;
+    position: relative;
+    left: .6rem;
+    top: 1px;
+    transition: all .3s ease;
+}
+.btn-primnary:hover::after,
+.btn-primnary:focus::after,
+.btn-primnary:active::after{
+    left: .25rem;
+}
+
+
+/* logo nav */
+
+.logo-nav img{
+    width: 150px;
+}
+
+
+
+/* estilos carousel */
+.d-item{
+    height: 500px;
+}
+
+
+.d-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);    
+}
+
+/* estilo botones */
+
+.btn{
+    padding: .6rem 2rem;
+    font-weight: bold;
+}
+
+.btn-primnary{
+    color: white;
+    background-color: #dc3545 !important;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+/* efectos boton */
+
+.btn-primnary:hover{
+    color: #dc3545;
+    background-color: white;
+}
+
+.btn-primnary.active{
+    color: #dc3545;
+    background-color: #dc3545 !important;
+}
+.btn-primnary.focus{
+    color: #dc3545;
+    background-color: #dc3545 !important;
+}
+
+/* cajablanca efecto boton principal */
+.btn-primnary::before{
+    content: '';
+    width: 0px;
+    height: 100%;
+    background-color: white;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: skew(45deg, 0);
+    transition: all .5s ease;
+    z-index: -1;
+}
+
+.btn-primnary:hover::before{
+    width: 130%;
+    left: -20%;
+}
+
+/* boton toggler */
+.navbar-toggler-icon{
+    background-image: url(data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e);
+}
+
+/* img modulo 1 */
+
+.img-modulo1 img{
+    width: 400px;
+}
+
+/* modulo2 */
+
+.imgmodulo2{
+    margin-top: 150px;
+}
+
+
+/* estilos img modulo 2 */
+.d-item2{
+    height: 400px;
+}
+
+
+.d-img2{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);    
+}
+
+/* card planes */
+
+.card
+{
+    border: none;
+    transition: all .7s ease;
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+/* sell web */
+
+#btn-shop{
+    outline-color: #ff4b22;
+}
+
+/* hover sociales footer */
+
+.redessociales-footer li a i{
+    color: #1c374c;
+    padding: 20px;
+    transition: all .8s ease;
+    font-size: 20px;
+}
+
+/* hover sociales */
+
+.redessociales-footer li a .facebook:hover{
+    transform: rotate(360deg) scale(1.7);
+    opacity: 1;
+    color: #4267B2;
+}
+
+.redessociales-footer li a .instagram:hover{
+    transform: rotate(360deg) scale(1.7);
+    opacity: 1;
+    color: #C13584;
+}
+
+.redessociales-footer li a .youtube:hover{
+    transform: rotate(360deg) scale(1.7);
+    opacity: 1;
+    color: #c4302b;
+}
+
+.redessociales-footer li a .github:hover{
+    transform: rotate(360deg) scale(1.7);
+    opacity: 1;
+    color: #171515 ;
+}
+
+
+
+/* media queries */
+
+@media(min-width:768px) {
+    .navbar-ligth .navbar-nav .nav-link{
+        padding: .7rem 1.2rem;
+    }
+
+
+    .navbar-ligth .navbar-nav .nav-link::after {
+        content: '';
+    }
+
+    #te-ayudamos{
+        transform: skew(0,3deg);
+    
+    }
+
+    #te-ayudamos{
+        transform: skew(0,3deg);
+    
+    } 
+}

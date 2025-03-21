@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Wid | Diseño Web FrontEnd</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.min.css">
+  <link rel="stylesheet" href="css/whatsapp.css">
+</head>
+
+<body>
+
+  <!-- barra superior + redesociales + ubicacion -->
+  <section id="barra-top" class="text-white text-center mb-0" style="background-color: #1c374c;">
+    <div class="container">
+      <div class="row justify-content-sm-between align-items-center">
+
+        <div class="col-12 col-sm-auto">
+          <i class="fa-solid fa-location-dot pe-2"></i><span>viña del mar</span>
+        </div>
+
+        <div class="col-12 col-sm-auto">
+          <ul class="redessociales list-unstyled d-inline-flex mb-0">
+            <li><a href="https://www.facebook.com/groups/1889625185109555" target="_blank"><i
+                  class="fa-brands fa-facebook facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/wid.cl?igsh=cTQyeng0MTV3cXMz&utm_source=qr" target="_blank"><i
+                  class="fa-brands fa-instagram instagram"></i></a></li>
+            <li><a target="_blank" href=""><i class="fa-brands fa-youtube youtube"></i></a></li>
+            <li><a target="_blank" href="https://github.com/WID-DesarrolloFrontEnd"><i
+                  class="fa-brands fa-github github"></i></a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- navbar -->
+
+  <nav id="menu-navegation" class="navbar navbar-expand-lg navbar-ligth bg-ligth ">
+    <div class="container-fluid my-1 logo-nav">
+      <img src="img/LOGO.png" alt="" class="me-4 d-none d-md-block">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="btn btn-primnary order-md-1 ms-3" href="/servicios.html" role="button">Agenda tu Hora</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-md-1 mt-4 mt-md-0  ">
+          <li class="nav-item mb-2 mb-md-1 ms-md-3 mt-md-0 ">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+          </li>
+          <li class="nav-item mb-2 mb-md-1 ms-md-3">
+            <a class="nav-link" href="/quiensoy.html">Quien soy</a>
+          </li>
+          <li class="nav-item mb-2 mb-md-1 ms-md-3">
+            <a class="nav-link" href="/desarrollo.html">Desarrollo Web</a>
+          </li>
+          <li class="nav-item mb-2 mb-md-1 ms-md-3">
+            <a class="nav-link" href="/bootstrap.html">Bootstrap</a>
+          </li>
+          <li class="nav-item mb-2 mb-md-1 ms-md-3">
+            <a class="nav-link" href="#services">Servicios</a>
+          </li>
+          <li class="nav-item mb-2 mb-md-1 ms-md-3">
+            <a class="nav-link" href="/pasos.html">Primeros Pasos</a>
+          </li>
+          <li class="nav-item mb-2 mb-md-1 ms-md-3">
+            <a class="nav-link" href="/contacto.html">Contacto</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <!-- slider -->
+  <section class="">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item d-item active">
+          <img src="/img/slider1.jpg" class="d-block w-100 d-img" alt="...">
+          <div class="carousel-caption d-md-block top-3 ">
+            <h2 class="display-3 fw-bold">HTML & CSS</h2>
+            <p class="text-center text-uppercase fw-bold">aprende los fundametos basicos del desarrollo frontend</p>
+            <a class="btn btn-primnary order-md-1 ms-3 mt-3" href="/desarrollo.html" role="button">Yo Quiero</a>
+          </div>
+        </div>
+        <div class="carousel-item d-item">
+          <img src="/img/slider2.jpg" class="d-block w-100 d-img" alt="...">
+          <div class="carousel-caption d-md-block top-3">
+            <h2 class="display-1 fw-bold d-flex justify-content-center align-items-center">dale vida a tu sitio</h2>
+            <p class="text-center text-uppercase fw-bold">estiliza tu sitio y dale vida mediante css y bootstrap</p>
+            <a class="btn btn-primnary bg-success order-md-1 ms-3 mt-3" href="/desarrollo.html" role="button">Yo
+              Quiero</a>
+          </div>
+        </div>
+        <div class="carousel-item d-item">
+          <img src="/img/slide3.jpg" class="d-block w-100 d-img" alt="...">
+          <div class="carousel-caption d-md-block top-3">
+            <h2 class="display-1 fw-bold d-flex justify-content-center align-items-center">framework bootstrap 5</h2>
+            <p class="text-center text-uppercase fw-bold">aprende a usar unos de los framework mas utilizados en el
+              desarrollo web</p>
+            <a class="btn btn-primnary bg-success order-md-1 ms-3 mt-3" href="/desarrollo.html" role="button">Yo
+              Quiero</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- primero modulo -->
+
+  <section>
+
+    <div class="container my-5">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-12 col-sm-6 mt-4">
+          <h1 class="text-capitalize fw-bold mt-5 display-5" style="color: #dc3545;">desarrollo web</h1>
+          <h4 class="text-capitalize fw-bold display-5">desarrollo frontend</h4>
+          <p>El desarrollo web frontend es la parte del desarrollo web que se enfoca en la interfaz de usuario y la
+            experiencia visual de un sitio web o aplicación. Es decir, todo lo que los usuarios ven e interactúan
+            directamente en el navegador.</p>
+          <a class="btn btn-primnary bg-success order-md-1 ms-0 my-3" href="desarrollo.html" role="button">Seguir
+            Leyendo</a>
+        </div>
+        <div class="col-12 col-lg-6 caja-img d-flex justify-content-center mt-5 img-modulo1">
+          <img src="img/img1.png" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- imagen modulo 2 -->
+
+  <section class="imgmodulo2">
+    <div id="carouselExampleSlidesOnly" class="carousel slide my-5 " data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active d-item2">
+          <img src="/img/imgmodulo2.jpg" class="d-block w-100 d-img2" alt="...">
+          <div class="carousel-caption d-md-block">
+            <h2 class="display-3 fw-bold mb-5 text-uppercase">Desarrolla tu mismo tu sitio web</h2>
+            <a class="btn btn-primnary bg-success order-md-1 ms-3 mt-3" href="/desarrollo.html" role="button">ver
+              mas</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- html y css -->
+
+  <section class="">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-sm-6 my-5">
+          <h3 class="fs-1 fw-bold display-5" style="color: #dc3545;">HyperText Markup Language</h3>
+          <h5 class="fs-1 fw-bold text-capitalize display-5">fundamentos de HTML</h5>
+          <p>HTML (HyperText Markup Language) es el lenguaje estándar para crear páginas web. Se usa para estructurar el
+            contenido de una página mediante etiquetas que definen elementos como textos, imágenes, enlaces, inputs,
+            div, navbar, footer, forms, tablas y
+            formularios.</p>
+          <a class="btn btn-primnary order-md-1 ms-0 mt-3" href="/desarrollo.html" role="button">ver mas</a>
+        </div>
+
+        <div class="col-12 col-sm-6 mt-5">
+          <h3 class="fs-1 fw-bold display-5" style="color: #dc3545;">Cascading Style Sheets</h3>
+          <h5 class="fs-1 fw-bold text-capitalize display-5">fundamentos de CSS</h5>
+          <p>CSS (Cascading Style Sheets) es un lenguaje de hojas de estilo utilizado para definir la apariencia y el
+            diseño de una página web escrita en HTML. Con CSS, puedes cambiar colores, fuentes, márgenes, tamaños,
+            posiciones y mucho más, haciendo que los sitios web sean más atractivos y funcionales.</p>
+          <a class="btn btn-primnary order-md-1 ms-0 mt-3" href="/desarrollo.html" role="button">ver mas</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- card -->
+
+  <section id="services" style="background-color: #f9f9f9">
+    <div class="container mt-5">
+      <div class="row pt-5">
+        <div class="col-12 my-2 text-center pb-5">
+          <h1 class="text-uppercase display-5 fw-bold text-danger">planes de clases.</h1>
+        </div>
+
+        <div class="row">
+          <div class="col-12 col-sm-4 mt-5 mb-5 pt-3  d-flex justify-content-center align-items-center">
+            <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 19rem;">
+              <img src="img/basico.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">HTML y CSS</h5>
+                <p class="card-text">Aprende los fundamentos básicos para estructurar tu sitio web y estilizarlo.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Duración de clase 1 hrs</li>
+                <li class="list-group-item">Modalidad Online</li>
+                <li class="list-group-item">valor: $15.000 clp</li>
+              </ul>
+              <div class="card-body">
+                <a class="btn btn-primnary order-md-1 ms-0 mt-3" href="/servicios.html" role="button">ver mas</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 mt-5 mb-5 pt-3  d-flex justify-content-center align-items-center">
+            <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 19rem;">
+              <img src="img/ligth.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">HTML, CSS y BOOTSTRAP</h5>
+                <p class="card-text">Aprende a integrar bootstrap 5 en tu proyecto HTML.</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Duración de clase 1 hrs</li>
+                <li class="list-group-item">Modalidad Online</li>
+                <li class="list-group-item">valor: $20.000 clp</li>
+              </ul>
+              <div class="card-body d-flex">
+                <a class="btn btn-primnary order-md-1 ms-0 mt-5" href="/servicios.html" role="button">ver mas</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-4 mt-5 mb-5 pt-3  d-flex justify-content-center align-items-center">
+            <div class="card shadow p-3 mb-5 bg-body rounded" style="width: 19rem;">
+              <img src="img/full.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Desarrollador</h5>
+                <p class="card-text">Creemos un proyecto web completo desde 0</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Duración de clase 1 hrs</li>
+                <li class="list-group-item">Numero de clases: 5</li>
+                <li class="list-group-item">Modalidad Online</li>
+                <li class="list-group-item">valor: $80.000 clp</li>
+              </ul>
+              <div class="card-body">
+                <a class="btn btn-primnary order-md-1 ms-0 mt-3" href="/servicios.html" role="button">ver mas</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- venta de web -->
+
+  <section>
+    <div class="container">
+      <div class="row my-5">
+        <div class="col">
+          <h1 class="text-center display-5 fw-bold text-uppercase my-5 text-danger">Diseñamos tu sitio web.</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5">
+      <div class="row row-cols-1 row-cols-md-3 mb-5 text-center">
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Básico</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$80.000</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Tipo Portafolio</li>
+                <li>Galeria de fotos Básica</li>
+                <li>1 mes de Soporte</li>
+                <li>Formulario de contacto</li>
+                <li>Alojamiento con subdominio</li>
+              </ul>
+              <a href="/servicios.html" class=" w-100 btn btn-lg btn-outline-danger mt-5" role="button"
+                data-bs-toggle="button">Ver mas</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm">
+            <div class="card-header py-3">
+              <h4 class="my-0 fw-normal">Pro</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$120.000</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Galeria de Fotos</li>
+                <li>Formulario de Contacto</li>
+                <li>Implementacion de efectos java</li>
+                <li>1 mes de Soporte</li>
+                <li>Dominio .cl</li>
+                <li>Hosting para tu sitio web</li>
+              </ul>
+              <a href="/servicios.html" class=" w-100 btn btn-lg btn-danger mt-4" role="button"
+                data-bs-toggle="button">Ver mas</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card mb-4 rounded-3 shadow-sm border-primary">
+            <div class="card-header py-3 text-white bg-danger border-primary">
+              <h4 class="my-0 fw-normal">Enterprise</h4>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">$170.000</h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Galeria de fotos</li>
+                <li>Formulario de Contacto</li>
+                <li>Implementacion de efectos java</li>
+                <li>1 mes de soporte</li>
+                <li>Dominio .cl</li>
+                <li>Hosting para tu sitio Web</li>
+              </ul>
+              <a href="/servicios.html" class=" w-100 btn btn-lg btn-danger mt-4" role="button"
+                data-bs-toggle="button">Ver mas</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <!-- formulario de contacto -->
+
+  <div class="container">
+    <div class="row" style="border-top: 1px gray solid;">
+      <div class="col-12 text-sm-center pt-5">
+        <h4 class="fw-bold text-danger display-4">Video de Ejemplo</h4>
+      </div>
+      <div class="col-12 my-5 d-flex justify-content-center align-items-center" style="overflow: hidden;">
+        <iframe width="500px" height="315" src="https://www.youtube.com/embed/VMqDNj0tm_Y?si=akpfJOI_hOb61Qdn"
+          title="YouTube video player" frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!-- footer -->
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <div class="col-12 col-sm-auto">
+        <ul class="redessociales-footer list-unstyled d-inline-flex mb-3">
+          <li><a href="https://www.facebook.com/groups/1889625185109555" target="_blank"><i
+                class="fa-brands fa-facebook facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/wid.cl?igsh=cTQyeng0MTV3cXMz&utm_source=qr" target="_blank"><i
+                class="fa-brands fa-instagram instagram"></i></a></li>
+          <li><a target="_blank" href=""><i class="fa-brands fa-youtube youtube"></i></a></li>
+          <li><a target="_blank" href="https://github.com/WID-DesarrolloFrontEnd"><i
+                class="fa-brands fa-github github"></i></a></li>
+        </ul>
+      </div>
+      <!-- Section: Social media -->
+      <!-- whatsapp -->
+
+      <a href="https://api.whatsapp.com/send?phone=56993641249&text=Hola,%20me%20gustar%C3%ADa%20saber%20mas%20sobre%20sus%20servicios."
+        class="float" target="_blank">
+        <i class="fa-brands fa-whatsapp my-float"></i>
+      </a>
+
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: #1c374c">
+      © 2025 Copyright:
+      <a style="text-decoration: none;" class="text-white" href="#">WID.CL</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>

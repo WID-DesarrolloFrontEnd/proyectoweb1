@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Contacto</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <link rel="stylesheet" href="css/estilo.css">
+  <link rel="stylesheet" href="fontawesome-free-6.7.2-web/css/all.min.css">
+  <link rel="stylesheet" href="css/whatsapp.css">
+</head>
+
+<body>
+
+  <!-- barra superior + redesociales + ubicacion -->
+  <section id="barra-top" class="text-white text-center mb-0" style="background-color: #1c374c;">
+    <div class="container">
+      <div class="row justify-content-sm-between align-items-center">
+
+        <div class="col-12 col-sm-auto">
+          <i class="fa-solid fa-location-dot pe-2"></i><span>viña del mar</span>
+        </div>
+
+        <div class="col-12 col-sm-auto">
+          <ul class="redessociales list-unstyled d-inline-flex mb-0">
+            <li><a target="_blank" href=""><i class="fa-brands fa-facebook facebook"></i></a></li>
+            <li><a target="_blank" href="https://www.instagram.com/wid.cl?igsh=cTQyeng0MTV3cXMz&utm_source=qr"><i
+                  class="fa-brands fa-instagram instagram"></i></a></li>
+            <li><a target="_blank" href=""><i class="fa-brands fa-youtube youtube"></i></a></li>
+            <li><a target="_blank" href="https://github.com/WID-DesarrolloFrontEnd"><i
+                  class="fa-brands fa-github github"></i></a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- navbar -->
+
+  <nav id="menu-navegation" class="navbar navbar-expand-lg navbar-ligth bg-ligth ">
+    <div class="container-fluid my-1 logo-nav">
+      <img src="img/LOGO.png" alt="" class="me-4 d-none d-md-block">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="btn btn-primnary order-md-1 ms-3" href="/servicios.html" role="button">Agenda tu Hora</a>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <ul class="navbar-nav me-auto mb-2 mb-md-1 mt-4 mt-md-0  ">
+          <li class="nav-item mb-2 mb-md-1 ms-md-3 mt-md-0 ">
+            <a class="nav-link" aria-current="page" href="/index.html">Inicio</a>
+          </li>
+          <li class="nav-item mb-2 mb-md-1 ms-md-3">
+            <a class="nav-link" href="/quiensoy.html">Quien soy</a>
+          </li>
+          <li class="nav-item mb-2 mb-md-1 ms-md-3">
+            <a class="nav-link" href="/desarrollo.html">Desarrollo Web</a>
+          </li>
+          <li class="nav-item mb-2 mb-md-1 ms-md-3">
+            <a class="nav-link" href="/bootstrap.html">Bootstrap</a>
+          </li>
+          <li class="nav-item mb-2 mb-md-1 ms-md-3">
+            <a class="nav-link" href="/servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item mb-2 mb-md-1 ms-md-3">
+            <a class="nav-link" href="/pasos.html">Primeros Pasos</a>
+          </li>
+          <li class="nav-item mb-2 mb-md-1 ms-md-3">
+            <a class="nav-link active" href="#">Contacto</a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- contacto -->
+
+  <div id="contact" class="container">
+    <div class="row">
+
+      <div class="col-12 text-center my-5">
+        <h1 class="text-uppercase text-danger">Contactanos.</h1>
+        <ul class="list-unstyled">
+          <li><i class="fa-solid fa-check pe-2"></i><span>Ingresa los datos solicitados.</span></li>
+          <li><i class="fa-solid fa-check pe-2"></i><span>Adjunta un screenshot de la compra realizada.</span></li>
+          <li><i class="fa-solid fa-check pe-2"></i><span>Describe en el cuadro de texto el plan comprado.</span></li>
+          <li><i class="fa-solid fa-check pe-2"></i><span>Describe en el cuadro de texto tu motivacion y aspiraciones.</span></li>
+      </ul>
+      </div>
+
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-sm-center">
+          <div class="col-12 col-sm-6">
+            <form class="form-label" action="enviar.php" method="post" enctype="multipart/form-data">
+              <label for="nombre">Tu Nombre:</label>
+              <input class="form-control" type="text" name="nombre" id="nombre" required><br><br>
+      
+              <label class="form-label" for="email">Tu Correo Electrónico:</label>
+              <input class="form-control" type="email" name="email" id="email" required><br><br>
+      
+              <label class="form-label for="archivo">Selecciona un archivo:</label>
+              <input class="form-control" type="file" name="archivo" id="archivo" required><br><br>
+      
+              <label class="form-label" for="mensaje">Tu mensaje:</label><br>
+              <textarea class="form-control" name="mensaje" id="mensaje" rows="4" cols="50" required></textarea><br><br>
+      
+              <input class="btn btn-danger mb-4" type="submit" value="Enviar">
+          </form>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- footer -->
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <div class="col-12 col-sm-auto">
+        <ul class="redessociales-footer list-unstyled d-inline-flex mb-3">
+          <li><a href="https://www.facebook.com/groups/1889625185109555" target="_blank"><i
+                class="fa-brands fa-facebook facebook"></i></a></li>
+          <li><a href="https://www.instagram.com/wid.cl?igsh=cTQyeng0MTV3cXMz&utm_source=qr" target="_blank"><i
+                class="fa-brands fa-instagram instagram"></i></a></li>
+          <li><a target="_blank" href=""><i class="fa-brands fa-youtube youtube"></i></a></li>
+          <li><a target="_blank" href="https://github.com/WID-DesarrolloFrontEnd"><i
+                class="fa-brands fa-github github"></i></a></li>
+        </ul>
+      </div>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center text-white p-3" style="background-color: #1c374c">
+      © 2025 Copyright:
+      <a style="text-decoration: none;" class="text-white" href="#">WID.CL</a>
+    </div>
+    <!-- Copyright -->
+
+    <!-- whatsapp -->
+
+    <a href="https://api.whatsapp.com/send?phone=56993641249&text=Hola,%20me%20gustar%C3%ADa%20saber%20mas%20sobre%20sus%20servicios."
+      class="float" target="_blank">
+      <i class="fa-brands fa-whatsapp my-float"></i>
+    </a>
+
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
